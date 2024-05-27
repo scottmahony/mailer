@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header img.center-logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main p strong {
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+    margin-top: 20px;
+}
+
+main p {
+    font-size: 1em;
+}
+
+main p.steps {
+    font-size: 1.5em;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.qr-section {
+    text-align: left;
+    margin-left: 20px;
+}
+
+div.qr-section p.qr-text {
+    font-size: 1em;
+    text-align: left;
+}
+
+div.qr-section img.qr-code {
+    width: 20%;
+}
+
+footer p.disclaimer {
+    font-size: 1em;
+    text-align: left;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 0 100px;
+}
+
+footer {
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+/* Added media query for mobile devices */
+@media (max-width: 768px) {
+    div.qr-section img.qr-code {
+        width: 5%;
+    }
+}
